@@ -1,0 +1,231 @@
+body {
+    video {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    font-family: "Berkshire Swash",
+    serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9c7ec;
+}
+
+header {
+    background-color: #351F1D;
+    /* Rosa */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo-esquerda {
+    float: left;
+    /* Alinha a logo à esquerda */
+    margin-right: 10px;
+    /* Espaçamento entre as logos */
+    max-height: 110px;
+    /* Altura máxima da logo */
+    margin-inline: 40px; /* Espaçamento do lado esquerdo */
+}
+
+/* Estilo para a logo da direita */
+.logo-direita {
+    float: right;
+    /* Alinha a logo à direita */
+    margin-left: 10px;
+    /* Espaçamento entre as logos */
+    max-height: 110px;
+    /* Altura máxima da logo */
+    margin-inline: 40px; /* Espaçamento do lado direito */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff69b4;
+    font-size: 40px;
+}
+
+
+
+p {
+    text-align: justify;
+    color: #070707;
+    font-size: 20px;
+}
+
+h2 {
+    color: #fd52a8;
+    font-size: 30px;
+}
+
+/* Estilo da grade para a classe .boloscaseiros */
+.boloscaseiros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilo das imagens dentro da classe .boloscaseiros */
+.boloscaseiros img {
+    max-width: 100%;
+    height: 200px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Para manter a proporção da imagem */
+}
+
+/* Estilo da grade para a classe .bolosvucoes */
+.bolosvucoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilo das imagens dentro da classe .bolosvucoes */
+.bolosvucoes img {
+    max-width: 100%;
+    height: 200px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Para manter a proporção da imagem */
+}
+
+/* Estilo da grade para a classe .sobremesas */
+.sobremesas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilo das imagens dentro da classe .sobremesas */
+.sobremesas img {
+    max-width: 100%;
+    height: 200px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Para manter a proporção da imagem */
+}
+
+/* Estilo da grade para a classe .tortanakedcake */
+.tortanakedcake {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilo das imagens dentro da classe .tortanakedcake */
+.tortanakedcake img {
+    max-width: 100%;
+    height: 200px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Para manter a proporção da imagem */
+}
+
+/* Estilo da grade para a classe .tortanakedcake */
+.bolonakedcake {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilo das imagens dentro da classe .tortanakedcake */
+.bolonakedcake img {
+    max-width: 100%;
+    height: 200px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Para manter a proporção da imagem */
+}
+
+/* Estilo da grade para a classe .scrapcake */
+.scrapcake {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilo das imagens dentro da classe .scrapcake */
+.scrapcake img {
+    max-width: 100%;
+    height: 200px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Para manter a proporção da imagem */
+}
+
+/* Estilo da grade para a classe .bolosconfeitados */
+.bolosconfeitados {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Estilo das imagens dentro da classe .bolosconfeitados */
+.bolosconfeitados img {
+    max-width: 100%;
+    height: 200px;
+    /* Altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Para manter a proporção da imagem */
+}
+
+
+.cta-button {
+    display: block;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px 30px;
+    background-color: #ff69b4;
+    color: #351F1D;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 30px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.cta-button:hover {
+    background-color: #351F1D;
+    color: #ff69b4;
+}
+
+.buttonstart {
+    display: block;
+    width: 200px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    background-color: #ff69b4;
+    color: #351F1D;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 30px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.buttonstart:hover {
+    background-color: #351F1D;
+    color: #ff69b4;
+}
+
+footer {
+    background-color: #ff69b4;
+    color: #351F1D(240, 244, 6);
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
